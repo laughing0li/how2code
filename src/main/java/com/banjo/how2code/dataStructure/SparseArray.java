@@ -2,10 +2,13 @@ package com.banjo.how2code.dataStructure;
 
 import java.util.Arrays;
 
+import org.springframework.stereotype.Component;
+
 /**
  * 稀疏数组，当一个二维数组大部分的值都为0的时候，就可以使用稀疏数组对其进行压缩
  * */
 
+@Component
 public class SparseArray {
 
 
