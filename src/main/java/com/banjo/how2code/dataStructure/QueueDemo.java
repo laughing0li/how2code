@@ -15,7 +15,8 @@ public class QueueDemo {
     private int maxSize; // 队列最多可以存储的数据量
     private int[] arr; // 初始化数组
 
-    public QueueDemo(){}
+    public QueueDemo() {
+    }
 
     public QueueDemo(int maxSize) {
         this.maxSize = maxSize;
@@ -46,6 +47,7 @@ public class QueueDemo {
         rear++;
         arr[rear] = n;
     }
+
     // 从第一个开始获取
     public int get() {
         if (isEmpty()) {
@@ -59,7 +61,9 @@ public class QueueDemo {
         if (isEmpty()) {
             throw new RuntimeException("队列为空，没有数据");
         }
-        System.out.print(Arrays.toString(arr));
+        for (int i : arr) {
+            System.out.print(i);
+        }
     }
 
 }
