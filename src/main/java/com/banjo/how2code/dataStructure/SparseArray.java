@@ -22,7 +22,7 @@ public class SparseArray {
     }
 
     public int[][] createSparseArray() {
-
+        
         int[][] chessArr = new int[11][11];
         // 首先创建一个二维数组, 创建一个11列11行的二维数组
         chessArr[1][2] = 1;
