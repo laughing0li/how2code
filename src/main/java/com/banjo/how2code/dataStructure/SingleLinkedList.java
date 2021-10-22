@@ -3,7 +3,7 @@ package com.banjo.how2code.dataStructure;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.banjo.how2code.HeroNode;
+import com.banjo.how2code.utils.HeroNode;
 
 /**
  *
@@ -67,8 +67,12 @@ public class SingleLinkedList {
 
     // 根据hero的id来进行更新
     public void updateById(HeroNode heroNode) {
-
         HeroNode temp = head;
+        List<Integer> ids = getAllId();
+        // 在更新该id的节点前，先要检查该节点是否存在
+        if (!ids.contains(heroNode.id)) {
+            throw new RuntimeException("id为 " + heroNode.id + " 的节点不存在，请重试！");
+        }
         while (true) {
             if (temp.next == null) {
                 break;
@@ -86,6 +90,7 @@ public class SingleLinkedList {
     public void deleteById(int id) {
         HeroNode temp = head;
         List<Integer> ids = getAllId();
+        // 在删除该id的节点前，先要检查该节点是否存在
         if (!ids.contains(id)) {
             throw new RuntimeException("id为 " + id + " 的节点不存在，请重试！");
         }
@@ -105,6 +110,7 @@ public class SingleLinkedList {
     public HeroNode getById(int id) {
         HeroNode temp = head;
         List<Integer> ids = getAllId();
+        // 在获取该id的节点前，先要检查该节点是否存在
         if (!ids.contains(id)) {
             throw new RuntimeException("id为 " + id + " 的节点不存在，请重试！");
         }

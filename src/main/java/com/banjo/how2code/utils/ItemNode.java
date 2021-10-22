@@ -1,17 +1,18 @@
-package com.banjo.how2code;
+package com.banjo.how2code.utils;
 
 /**
- * HeroNode用于单链表的操作使用
- *
- * */
+ * 用于DoubleLinkedList操作
+ */
 
-public class HeroNode {
+public class ItemNode {
+    
     public int id;
     public String name;
     public String nickName;
-    public HeroNode next; // next表示该节点指向的下一个节点
+    public ItemNode next; // next表示该节点指向的下一个节点
+    public ItemNode pre; // pre表示指向该节点的上一个节点
 
-    public HeroNode(int id, String name, String nickName) {
+    public ItemNode(int id, String name, String nickName) {
         this.id = id;
         this.name = name;
         this.nickName = nickName;

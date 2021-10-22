@@ -1,7 +1,7 @@
 package com.banjo.how2code.dataStructureTest;
 
 import com.banjo.how2code.dataStructure.SingleLinkedList;
-import com.banjo.how2code.HeroNode;
+import com.banjo.how2code.utils.HeroNode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -38,7 +38,6 @@ public class SingleLinkedListTest {
         linkedList.deleteById(3);
         linkedList.deleteById(3);
         
-        // linkedList.show();
     }
 
     @Test
