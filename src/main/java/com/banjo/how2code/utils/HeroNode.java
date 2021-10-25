@@ -4,7 +4,6 @@ package com.banjo.how2code.utils;
  * HeroNode用于单链表的操作使用
  *
  * */
-
 public class HeroNode {
     public int id;
     public String name;
@@ -16,7 +15,7 @@ public class HeroNode {
         this.name = name;
         this.nickName = nickName;
     }
-
+    
     @Override
     public String toString() {
         return "HeroNode{" +

@@ -4,6 +4,7 @@ package com.banjo.how2code.utils;
  * 用于DoubleLinkedList操作
  */
 
+
 public class ItemNode {
     
     public int id;
