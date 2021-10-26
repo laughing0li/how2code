@@ -17,4 +17,21 @@ public class CircleLinkedListTest {
         System.out.print(circleLinkedList.list());
     }
 
+    @Test
+    public void delete() {
+        CircleLinkedList circleLinkedList = new CircleLinkedList();
+        circleLinkedList.addNode(4);    
+        // HeroNode te = circleLinkedList.getById(4);
+        System.out.print(circleLinkedList.list());
+    }
+
+    @Test
+    public void order() {
+        CircleLinkedList circleLinkedList = new CircleLinkedList();
+        circleLinkedList.addNode(6);
+
+        System.out.print(circleLinkedList.list());
+
+        circleLinkedList.count(2, 2, 6);
+    }
 }
