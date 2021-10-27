@@ -1,6 +1,6 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.linkedlist;
 
-import com.banjo.how2code.dataStructure.SingleLinkedList;
+import com.banjo.how2code.linkedlist.SingleLinkedList;
 import com.banjo.how2code.utils.HeroNode;
 
 import org.junit.jupiter.api.Test;

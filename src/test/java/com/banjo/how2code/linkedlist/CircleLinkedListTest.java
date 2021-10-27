@@ -1,8 +1,6 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.linkedlist;
 
-import com.banjo.how2code.dataStructure.CircleLinkedList;
-import com.banjo.how2code.utils.HeroNode;
-
+import com.banjo.how2code.linkedlist.CircleLinkedList;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

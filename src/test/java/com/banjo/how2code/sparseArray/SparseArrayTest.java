@@ -1,9 +1,8 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.sparseArray;
 
 import java.util.Arrays;
 
-
-import com.banjo.how2code.dataStructure.SparseArray;
+import com.banjo.how2code.sparseArray.SparseArray;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

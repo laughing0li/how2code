@@ -1,4 +1,4 @@
-package com.banjo.how2code.dataStructure;
+package com.banjo.how2code.linkedlist;
 
 /**
  * 约瑟夫问题，环形链表的出圈顺序

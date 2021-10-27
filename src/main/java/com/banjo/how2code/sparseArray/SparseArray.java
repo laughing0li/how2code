@@ -1,4 +1,4 @@
-package com.banjo.how2code.dataStructure;
+package com.banjo.how2code.sparseArray;
 
 import java.util.Arrays;
 

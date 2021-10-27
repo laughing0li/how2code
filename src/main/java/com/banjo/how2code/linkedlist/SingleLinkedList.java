@@ -1,4 +1,4 @@
-package com.banjo.how2code.dataStructure;
+package com.banjo.how2code.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;

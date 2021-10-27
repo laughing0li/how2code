@@ -1,4 +1,4 @@
-package com.banjo.how2code.dataStructure;
+package com.banjo.how2code.queue;
 
 import java.util.Arrays;
 

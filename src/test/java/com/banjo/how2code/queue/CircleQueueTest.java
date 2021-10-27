@@ -1,8 +1,6 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.queue;
 
-import java.util.Scanner;
-
-import com.banjo.how2code.dataStructure.CircleQueue;
+import com.banjo.how2code.queue.CircleQueue;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

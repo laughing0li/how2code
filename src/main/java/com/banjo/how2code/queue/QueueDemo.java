@@ -1,6 +1,4 @@
-package com.banjo.how2code.dataStructure;
-
-import java.util.Arrays;
+package com.banjo.how2code.queue;
 
 import org.springframework.stereotype.Component;
 

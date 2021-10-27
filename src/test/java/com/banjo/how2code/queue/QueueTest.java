@@ -1,7 +1,7 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.queue;
 
 
-import com.banjo.how2code.dataStructure.QueueDemo;
+import com.banjo.how2code.queue.QueueDemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.banjo.how2code.dataStructureTest;
+package com.banjo.how2code.linkedlist;
 
-import com.banjo.how2code.dataStructure.DoubleLinkedList;
+import com.banjo.how2code.linkedlist.DoubleLinkedList;
 import com.banjo.how2code.utils.ItemNode;
 
 import org.junit.jupiter.api.Test;
